@@ -10,7 +10,7 @@
 
 * **Identity Awareness**: The bot recognizes user nicknames and provides personalized interactions.
 
-* **Plug & Play**: Automated dependency installation via a single .bat file—no manual terminal setup required.
+* **Plug & Play**: Automated dependency installation via a single .bat file-no manual terminal setup required.
 
 ## ⚙️ LM Studio Configuration
 ### To connect the bot to your AI model, follow these steps:
@@ -37,7 +37,6 @@ Locate this line in the ```process_ai_request``` function:
 context = chat_histories[user_id][-5:]
 ```
 * **Modification**: Change ```-5``` to any number (e.g., ```-10```). This determines how many previous messages the bot keeps in its "head."
-* **Pro Tip**: For GPUs like the RTX 2060 Super, keeping this between 5 and 10 is ideal to prevent VRAM overflow.
 
 ## 2. Response Length & Creativity
 Locate the API call section:
@@ -55,4 +54,4 @@ temperature=0.7
 
 2. Start the server in **LM Studio**.
 
-3. Run ```run.bat``` — it will automatically handle library installations and launch the interface.
+3. Run ```run.bat``` - it will automatically handle library installations and launch the interface.
