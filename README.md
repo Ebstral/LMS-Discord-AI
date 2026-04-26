@@ -1,5 +1,4 @@
 # LMS-Discord-AI
-### Simple Discord Bot for LM Studio | GUI with logs, status monitoring and easy management | Ability to send pictures
 ### LMS-Discord-AI is a powerful yet lightweight bridge between your local LM Studio server and Discord. It features a modern graphical interface (GUI) for real-time system monitoring and easy bot management.
 
 ## 🌟 Key Advantages
