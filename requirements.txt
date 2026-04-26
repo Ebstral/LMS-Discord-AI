@@ -1,0 +1,6 @@
+discord.py
+openai
+customtkinter
+psutil
+pynvml
+httpx
